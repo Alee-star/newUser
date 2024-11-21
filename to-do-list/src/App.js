@@ -35,6 +35,14 @@ function App() {
         backgroundColor: "green",
         color: "white"
       }} onClick={handleClick1}>Increment</button>
+      <button style={{
+        fontSize: "60px",
+        position: "relative",
+        top: "20vh",
+        borderRadius: "8px",
+        backgroundColor: "green",
+        color: "white"
+      }} onClick={handleClick2}>Decrement</button>
       </h1>
     </div>
   );
